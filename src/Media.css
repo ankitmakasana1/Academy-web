@@ -1,0 +1,362 @@
+@media only screen and (max-width: 1200px)
+{
+    .certifications-div .logo-wrp
+    {
+        grid-gap: 20px;
+    }
+    
+    .certifications-div .logo-wrp img
+    {
+        max-height: 60px;
+    }
+
+    .why-us .image
+    {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .min-logo
+    {
+        margin-left: 50px;
+    }
+
+    .navbar-toggler
+    {
+        margin-top: -80px;
+    }
+
+    .navbar-logo-wrp
+    {
+        padding: 20px 0;
+    }
+    .navbar-main
+    {
+        padding-bottom: 0;
+    }
+
+    .navbar-collapse
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: #000;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        z-index: 999;
+    }
+
+    .navbar-logo-wrp h5
+    {
+        margin-left: 40px;
+    }
+
+    .hero-sec img
+    {
+        height: 460px;
+    }
+
+    .card-w-wrp
+    {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding-right: 0;
+    }
+
+    .india-usa-wrp .details-div
+    {
+        min-width: 420px;
+        max-width: 420px;
+    }
+
+    .india-usa-wrp .image-div, .india-usa-wrp .image-div img
+    {
+        height: 522px;
+    }
+
+}
+
+@media only screen and (max-width: 900px)
+{
+    .service-wrp .box-div {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggler {
+        margin-top: -70px;
+    }
+    .title-wrp
+    {
+        margin-bottom: 20px;
+    }
+
+    .title-wrp h4
+    {
+        font-size: 24px;
+    }
+
+    .title-wrp h6
+    {
+        font-size: 14px;
+    }
+    .title-wrp .text
+    {
+        margin-left: 20px;
+    }
+    .title-wrp .line
+    {
+        height: 51px;
+    }
+
+    .service-wrp, .why-us, .work-feature-wrp, .testimonial-wrp, .certifications-div
+    {
+        padding: 40px 0;
+    }
+
+    .service-wrp .box-wrp .box, .why-card
+    {
+        padding: 12px;
+    }
+
+    .service-wrp .box-wrp, .card-image-div, .india-usa-wrp, .certifications-div .text-logo
+    {
+        display: block;
+    }
+    .service-wrp .box-div {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 16px;
+        padding-right: 0;
+    }
+    .service-wrp .box-img
+    {
+        max-width: 265px;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+    .why-us .image
+    {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .why-us .image img
+    {
+        max-width: 450px;
+        height: auto;
+    }
+
+    .why-card
+    {
+        margin-top: 20px;
+    }
+
+    .card-image-div .image-div img
+    {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .card-image-div .image-div
+    {
+        max-width: 270px;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+    .india-usa-wrp .image-div, .india-usa-wrp .image-div img
+    {
+        height: auto;
+    }
+
+    .india-usa-wrp .details-div
+    {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    .certifications-div .text-logo h6
+    {
+        margin-bottom: 20px;
+    }
+
+    .footer .about
+    {
+        padding-right: 0;
+        margin-bottom: 16px;
+    }
+    .testimonial-card img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .testimonial-card img
+    {
+        margin-top: -65px;
+    }
+    .testimonial-card
+    {
+        margin-top: 40px;
+    }
+    .right-icon-div .details
+    {
+        display: none;
+    }
+    .right-icon-div .icon-wrp svg
+    {
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .certifications-div .logo-wrp
+    {
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .navbar-toggler {
+        margin-top: -53px;
+    }
+
+    .navbar-logo-wrp h5
+    {
+        font-size: 16px;
+        margin-left: 22px;
+    }
+
+    .navbar-logo-wrp
+    {
+        padding: 16px;
+    }
+
+    .right-icon-div .icon-wrp svg
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer .contact
+    {
+        padding-left: 0;
+        margin-top: 16px;
+    }
+
+    .footer
+    {
+        padding: 20px 0;
+    }
+    .service-wrp .box-div
+    {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+
+    .why-us .image img
+    {
+        max-width: 350px;
+    }
+
+    .why-card
+    {
+        margin-top: 10px;
+    }
+
+    .card-w-wrp
+    {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .copyright .bg
+    {
+        display: block;
+        text-align: center;
+    }
+    .copyright .social
+    {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer h6
+    {
+        font-size: 16px;
+    }
+
+    .footer h5
+    {
+        font-size: 14px;
+    }
+    .footer p, .footer .links
+    {
+        font-size: 12px;
+    }
+
+    .certifications-div .text-logo h6
+    {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .certifications-div .logo-wrp img {
+        max-height: 40px;
+    }
+    .certifications-div .logo-wrp {
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .service-wrp, .why-us, .work-feature-wrp, .testimonial-wrp, .certifications-div
+    {
+        padding: 20px 0;
+    }
+
+    .testimonial-wrp
+    {
+        padding-bottom: 40px;
+    }
+
+    .testimonial-card p, .card-w-wrp .card-w p
+    {
+        font-size: 13px;
+    }
+
+    .india-usa-wrp .details-div h6
+    {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .india-usa-wrp .details-div ul li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .card-w-wrp .card-w .icon-text h6, .service-wrp .box-wrp h6
+    {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .why-card svg
+    {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .certifications-div .logo-wrp {
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
